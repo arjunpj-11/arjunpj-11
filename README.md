@@ -1,101 +1,78 @@
-<p align="center">
-  <img src="./banner.png" alt="Arjun PJ Banner" width="100%" />
-</p>
+<div align="center">
 
+# Arjun PJ
 
-<h1 align="center">Hi, I'm Arjun PJ 👋</h1>
+**MERN Stack Developer · Building Modern Web Applications**
 
-<h3 align="center">MERN Stack Developer | Building Modern Web Applications</h3>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Arjun%20PJ-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/arjun-pj/)
+[![Email](https://img.shields.io/badge/Email-arjunpj11%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:arjunpj11@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=arjunpj-11&style=flat-square&color=58a6ff)](https://github.com/arjunpj-11)
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=MERN+Stack+Developer;MongoDB+%7C+Express.js+%7C+React+%7C+Node.js;Building+production-ready+web+apps;Always+learning%2C+always+improving" alt="Typing SVG" />
-</p>
+</div>
 
 ---
 
 ## 👨‍💻 About Me
 
-I am a MERN Stack Developer passionate about building clean, scalable, and user-friendly web applications.
-
-I enjoy working with modern frontend and backend technologies, designing real-world project architectures, and creating applications that are not just functional but also production-ready.
-
-Currently, I am developing **Imminiq**, an AI-powered interview preparation platform that creates personalized learning trackers, AI explanations, mock tests, and progress-based preparation paths.
-
----
-
-## 🚀 Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mongodb,express,react,nodejs,js,ts,html,css,tailwind,git,github,vscode" alt="Tech Stack Icons" />
-</p>
+```txt
+Location  : Kerala, India
+Focus     : Full-Stack MERN Development
+Currently : Building Imminiq — AI-powered interview prep platform
+Learning  : Clean Architecture · TypeScript · API Design
+Motto     : 1% better every day
+```
 
 ---
 
-## 🧠 What I’m Focused On
+## 🛠️ Tech Stack
 
-- Building full-stack MERN applications
-- Learning clean architecture and modular backend design
-- Improving TypeScript, API design, and database architecture
-- Creating production-ready project documentation
-- Developing my main project: **Imminiq**
-
----
-
-## 💼 Featured Project
-
-### 🔥 Imminiq — AI-Powered Interview Prep Platform
-
-Imminiq is a personalized interview preparation platform where users can create AI-generated learning trackers based on their field, level, goal, and timeline.
-
-Main features include:
-
-- AI-generated roadmap trackers
-- Topic-wise explanations
-- Mock tests and progress tracking
-- Code compiler support for coding topics
-- Community tracker sharing
-- Gamification, rewards, and leaderboard system
-- Admin verification and moderation system
+| Layer | Technologies |
+|---|---|
+| **Frontend** | React, TypeScript, Tailwind CSS, HTML, CSS |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB |
+| **Tools** | Git, GitHub, VS Code |
 
 ---
 
-## 📊 GitHub Stats
+## 🔥 Featured Project — Imminiq
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arjunpj-11&theme=tokyonight&hide_border=true" height="165" alt="Arjun PJ GitHub Streak" />
-</p>
+> AI-powered interview preparation platform with personalized learning paths
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arjunpj-11&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" height="165" alt="Arjun PJ GitHub Stats" />
-</p>
+**What it does:**
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arjunpj-11&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" height="165" alt="Top Languages" />
-</p>
+- 🗺️ Generates AI roadmap trackers based on your field, level, and timeline
+- 📚 Provides topic-wise AI explanations and mock tests
+- 💻 Supports a built-in code compiler for coding topics
+- 📊 Tracks progress with gamification and leaderboards
+- 🌐 Allows community tracker sharing with admin moderation
+
+> 🚧 Currently in active development — repo link coming soon
 
 ---
 
-## 🐍 Contribution Graph
+## 📈 GitHub Stats
 
-<p align="center">
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=arjunpj-11&theme=github-dark-blue&hide_border=true" height="160" alt="GitHub Streak" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=arjunpj-11&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" height="160" alt="GitHub Stats" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arjunpj-11&layout=compact&theme=github_dark&hide_border=true" height="160" alt="Top Languages" />
+
+</div>
+
+---
+
+## 🐍 Contribution Activity
+
+<div align="center">
   <img src="https://raw.githubusercontent.com/arjunpj-11/arjunpj-11/output/snake-dark.svg" alt="Snake animation" />
-</p>
+</div>
 
 ---
 
-## 📫 Connect With Me
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/arjun-pj/">
-    <img src="https://img.shields.io/badge/LinkedIn-Arjun%20PJ-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
-  </a>
-  <a href="mailto:arjunpj11@gmail.com">
-    <img src="https://img.shields.io/badge/Email-arjunpj11%40gmail.com-red?style=for-the-badge&logo=gmail" alt="Email" />
-  </a>
-</p>
-
----
-
-<p align="center">
-  <b>“1% better every day.”</b>
-</p>
+<div align="center">
+  <i>"1% better every day."</i>
+</div>

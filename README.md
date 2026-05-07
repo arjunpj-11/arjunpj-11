@@ -1,11 +1,9 @@
-<!-- Profile Banner -->
 <p align="center">
-  <img src="YOUR_LINKEDIN_BANNER_IMAGE_URL_HERE" alt="Arjun PJ Banner" width="100%" />
+  <img src="./banner.png" alt="Arjun PJ Banner" width="100%" />
 </p>
 
-<!-- Profile Photo -->
 <p align="center">
-  <img src="YOUR_LINKEDIN_PROFILE_PIC_URL_HERE" alt="Arjun PJ Profile Picture" width="150" style="border-radius: 50%;" />
+  <img src="./profile.png" alt="Arjun PJ Profile Picture" width="150" />
 </p>
 
 <h1 align="center">Hi, I'm Arjun PJ 👋</h1>

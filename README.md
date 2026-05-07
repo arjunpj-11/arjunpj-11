@@ -59,11 +59,11 @@ Motto     : 1% better every day
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=arjunpj-11&theme=github-dark-blue&hide_border=true" height="160" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=arjunpj-11&theme=github-dark-blue&hide_border=true" height="160" />
 
-<img src="[https://github-readme-stats.vercel.app/api?username=arjunpj-11&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" height="160" alt="GitHub Stats](https://github-readme-stats-nine-omega-56.vercel.app/api?username=arjunpj-11&show_icons=true&theme=github-dark&hide_border=true)" />
+<img src="https://github-readme-stats-nine-omega-56.vercel.app/api?username=arjunpj-11&show_icons=true&theme=github-dark&hide_border=true" height="160" />
 
-<img src="[https://github-readme-stats.vercel.app/api/top-langs/?username=arjunpj-11&layout=compact&theme=github_dark&hide_border=true](https://github-readme-stats-nine-omega-56.vercel.app/api/top-langs/?username=arjunpj-11&layout=compact&theme=github-dark&hide_border=true)" height="160" alt="Top Languages" />
+<img src="https://github-readme-stats-nine-omega-56.vercel.app/api/top-langs/?username=arjunpj-11&layout=compact&theme=github-dark&hide_border=true" height="160" />
 
 </div>
 

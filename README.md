@@ -2,9 +2,6 @@
   <img src="./banner.png" alt="Arjun PJ Banner" width="100%" />
 </p>
 
-<p align="center">
-  <img src="./profile.png" alt="Arjun PJ Profile Picture" width="150" />
-</p>
 
 <h1 align="center">Hi, I'm Arjun PJ 👋</h1>
 

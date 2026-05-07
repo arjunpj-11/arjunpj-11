@@ -62,12 +62,15 @@ Main features include:
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arjunpj-11&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="Arjun PJ GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=arjunpj-11&theme=tokyonight&hide_border=true" height="165" alt="Arjun PJ GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arjunpj-11&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=arjunpj-11&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" height="165" alt="Arjun PJ GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arjunpj-11&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" height="165" alt="Top Languages" />
 </p>
 
 ---

@@ -61,10 +61,6 @@ Motto     : 1% better every day
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=arjunpj-11&theme=github-dark-blue&hide_border=true" height="160" />
 
-<img src="https://github-readme-stats-nine-omega-56.vercel.app/api?username=arjunpj-11&show_icons=true&theme=github-dark&hide_border=true&v=1" height="160" />
-
-<img src="https://github-readme-stats-nine-omega-56.vercel.app/api/top-langs/?username=arjunpj-11&layout=compact&theme=github-dark&hide_border=true&v=1" height="160" />
-
 </div>
 
 ---

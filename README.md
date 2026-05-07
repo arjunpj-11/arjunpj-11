@@ -2,7 +2,9 @@
   <img src="./banner.png" alt="Arjun PJ Banner" width="100%" />
 </p>
 
-
+<p align="center">
+  <img src="./profile.png" alt="Arjun PJ Profile Picture" width="150" />
+</p>
 
 <h1 align="center">Hi, I'm Arjun PJ 👋</h1>
 
@@ -27,7 +29,7 @@ Currently, I am developing **Imminiq**, an AI-powered interview preparation plat
 ## 🚀 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=mongodb,express,react,nodejs,js,ts,html,css,tailwind,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=mongodb,express,react,nodejs,js,ts,html,css,tailwind,git,github,vscode" alt="Tech Stack Icons" />
 </p>
 
 ---
@@ -63,12 +65,12 @@ Main features include:
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arjunpj-11&show_icons=true&theme=tokyonight&hide_border=true" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arjunpj-11&theme=tokyonight&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=arjunpj-11&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="Arjun PJ GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arjunpj-11&theme=tokyonight&hide_border=true" height="165" alt="Arjun PJ GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arjunpj-11&layout=compact&theme=tokyonight&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arjunpj-11&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
 </p>
 
 ---
@@ -76,7 +78,7 @@ Main features include:
 ## 🐍 Contribution Graph
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/arjunpj-11/arjunpj-11/output/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/arjunpj-11/arjunpj-11/output/snake-dark.svg" alt="Snake animation" />
 </p>
 
 ---
@@ -84,11 +86,11 @@ Main features include:
 ## 📫 Connect With Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME">
-    <img src="https://img.shields.io/badge/LinkedIn-Arjun%20PJ-blue?style=for-the-badge&logo=linkedin" />
+  <a href="https://www.linkedin.com/in/arjun-pj/">
+    <img src="https://img.shields.io/badge/LinkedIn-Arjun%20PJ-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
   </a>
   <a href="mailto:arjunpj11@gmail.com">
-    <img src="https://img.shields.io/badge/Email-arjunpj11%40gmail.com-red?style=for-the-badge&logo=gmail" />
+    <img src="https://img.shields.io/badge/Email-arjunpj11%40gmail.com-red?style=for-the-badge&logo=gmail" alt="Email" />
   </a>
 </p>
 

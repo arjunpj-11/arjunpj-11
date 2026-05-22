@@ -2,10 +2,9 @@
   <img src="./banner.png" alt="Arjun PJ Banner" width="100%" />
 </p>
 
-<div align=" center">
+<div align="center">
 
 # Arjun PJ
-
 **MERN Stack Developer · Building Modern Web Applications**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Arjun%20PJ-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/arjun-pj/)
@@ -44,7 +43,6 @@ Motto     : 1% better every day
 > AI-powered interview preparation platform with personalized learning paths
 
 **What it does:**
-
 - 🗺️ Generates AI roadmap trackers based on your field, level, and timeline
 - 📚 Provides topic-wise AI explanations and mock tests
 - 💻 Supports a built-in code compiler for coding topics
@@ -58,9 +56,7 @@ Motto     : 1% better every day
 ## 📈 GitHub Stats
 
 <div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=arjunpj-11&theme=github-dark-blue&hide_border=true" height="160" />
-
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arjunpj-11&theme=github-dark-blue&hide_border=true" height="160" />
 </div>
 
 ---

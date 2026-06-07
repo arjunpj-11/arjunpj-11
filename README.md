@@ -1,13 +1,13 @@
 <p align="center">
   <img src="./banner.png" alt="Arjun PJ Banner" width="100%" />
 </p>
-
 <div align="center" >
 
 # Arjun PJ
 **MERN Stack Developer · Building Modern Web Applications**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Arjun%20PJ-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/arjun-pj/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-arjunpj.dev-FF6B6B?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-phi-eight-dsawdj2mf2.vercel.app/)
 [![Email](https://img.shields.io/badge/Email-arjunpj11%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:arjunpj11@gmail.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=arjunpj-11&style=flat-square&color=58a6ff)](https://github.com/arjunpj-11)
 

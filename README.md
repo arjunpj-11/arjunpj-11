@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="./banner.jpeg" alt="Arjun PJ Banner" width="100%" />
-</p>
+
 <div align="center" >
 
 # Arjun PJ

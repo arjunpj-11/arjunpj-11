@@ -36,6 +36,8 @@ Open to internship and entry-level opportunities in full-stack or backend develo
 ### [Imminiq](https://github.com/arjunpj-11/Imminiq) — AI-Powered Learning Platform
 > *React · TypeScript · Node.js · Express · MongoDB · Redis · Socket.io · BullMQ · Piston*
 
+[![Imminiq Preview](https://raw.githubusercontent.com/arjunpj-11/Imminiq/main/social-preview.jpeg)](https://github.com/arjunpj-11/Imminiq)
+
 Built to replace the chaos of juggling multiple prep sites. Imminiq gives learners one structured environment for everything — from roadmap to execution.
 
 - AI-generated personalized roadmaps by role, level, and timeline
@@ -53,12 +55,16 @@ Built to replace the chaos of juggling multiple prep sites. Imminiq gives learne
 ### [MERN Stack Tracker](https://github.com/arjunpj-11/Mernstack-Tracker) — Study & Interview Prep · `The Spark`
 > *React · Vite · AI/LLM APIs*
 
+[![MERN Tracker Preview](https://raw.githubusercontent.com/arjunpj-11/Mernstack-Tracker/main/social-preview.jpeg)](https://github.com/arjunpj-11/Mernstack-Tracker)
+
 The project that started it all. A structured study tracker for MERN interview prep — AI explanations, topic-wise doubt solving, mock MCQ tests, and progress tracking across JavaScript, React, TypeScript, DSA, and more. When other developers started asking for their own version, Imminiq was born.
 
 ---
 
 ### [Grand V1](https://github.com/arjunpj-11/GrandMall-virtualWorld) — Browser-Based Virtual World
 > *Next.js · Three.js · Express.js · MongoDB*
+
+[![Grand V1 Preview](https://raw.githubusercontent.com/arjunpj-11/GrandMall-virtualWorld/main/social-preview.jpeg)](https://github.com/arjunpj-11/GrandMall-virtualWorld)
 
 A 3D virtual mall platform rendered entirely in the browser. Cities, buildings, and products are managed from the backend and rendered in real time with Three.js. Built as a proof of concept for a browser-based metaverse — foundation laid for avatars, multiplayer, AI interactions, and real-time navigation.
 
@@ -67,12 +73,16 @@ A 3D virtual mall platform rendered entirely in the browser. Cities, buildings, 
 ### [StudyCircle](https://github.com/arjunpj-11/StudyCircle) — Communication Session Manager
 > *React · Vite · Node.js · Express.js · MongoDB*
 
+[![StudyCircle Preview](https://raw.githubusercontent.com/arjunpj-11/StudyCircle/main/social-preview.jpeg)](https://github.com/arjunpj-11/StudyCircle)
+
 Built to solve a real problem at Brototype — in a 1-hour session with many students, each person gets 2–3 minutes max. StudyCircle auto-splits students into groups of three, assigns Google Meet links, and gives everyone ~15 minutes of active speaking time. No login needed for students — open the app, see your group, join instantly.
 
 ---
 
 ### [Arni](https://github.com/arjunpj-11/Arni) — Full-Stack E-Commerce Platform · `The Origin`
 > *Node.js · Express.js · MongoDB · EJS · Razorpay*
+
+[![Arni Preview](https://raw.githubusercontent.com/arjunpj-11/Arni/main/social-preview.jpeg)](https://github.com/arjunpj-11/Arni)
 
 End-to-end e-commerce application covering the full shopping lifecycle — product search, cart, address management, coupon engine, Razorpay payments, order tracking, cancellations, returns, and a wallet system. Admin dashboard with real-time sales analytics, product and variant management, and order oversight. Clean MVC architecture with modular routes, controllers, and schemas.
 

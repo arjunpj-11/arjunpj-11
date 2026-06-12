@@ -5,7 +5,7 @@
 **Full-Stack Developer · Kerala, India**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-arjun--pj-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arjun-pj/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-arjunpj.dev-000000?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-phi-eight-dsawdj2mf2.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-arjunpj.dev-000000?style=flat-square&logo=vercel&logoColor=white)](https://www.arjunpj.online/)
 [![Email](https://img.shields.io/badge/Email-arjunpj11%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:arjunpj11@gmail.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=arjunpj-11&style=flat-square&color=58a6ff)](https://github.com/arjunpj-11)
 

@@ -1,8 +1,8 @@
 <div align="center">
 
-# Hey, I'm Arjun PJ 👋
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hey%2C%20I'm%20Arjun%20PJ%20%F0%9F%91%8B&fontSize=45&fontColor=fff&animation=twinkling&fontAlignY=35)
 
-### Full-Stack Developer building secure products and community-driven learning systems
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Building+secure+products;Community-driven+learning+systems;React+%C2%B7+TypeScript+%C2%B7+Node.js+%C2%B7+MongoDB)
 
 Kerala, India · Open to full-stack and backend opportunities
 
@@ -10,20 +10,26 @@ Kerala, India · Open to full-stack and backend opportunities
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-arjun--pj-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arjun-pj/)
 [![Email](https://img.shields.io/badge/Email-Let's_talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arjunpj11@gmail.com)
 
+![Profile Views](https://komarev.com/ghpvc/?username=arjunpj-11&color=38bdf8&style=for-the-badge&label=Profile+Views)
+
 </div>
 
-## About me
+---
+
+## 🚀 About Me
 
 I'm a full-stack developer who enjoys turning complex ideas into reliable, thoughtfully designed products. My interest in mathematics shaped how I approach programming: break the problem down, understand the system, and build with intention.
 
 Right now, I'm developing **Imminiq**, a community-evolving learning platform built around living trackers. AI creates the first structured path; learners then study together, contribute missing knowledge, verify improvements, and make the tracker better for everyone who follows.
 
-- I care about **backend architecture, application security, and developer experience**
-- I build primarily with **React, TypeScript, Node.js, MongoDB, and Redis**
-- I'm currently training at **Brototype** and building production-grade full-stack applications
-- I'm open to **internship and entry-level full-stack or backend roles**
+- 🔒 I care about **backend architecture, application security, and developer experience**
+- ⚡ I build primarily with **React, TypeScript, Node.js, MongoDB, and Redis**
+- 🎓 I'm currently training at **Brototype** and building production-grade full-stack applications
+- 💼 I'm open to **internship and entry-level full-stack or backend roles**
 
-## Featured project
+---
+
+## 🌟 Featured Project
 
 <div align="center">
 
@@ -54,14 +60,14 @@ Imminiq is the project where I bring together this product vision with serious e
 | Protects accounts and active sessions | OAuth, 2FA, CSRF protection, rate limiting, and refresh-token rotation |
 | Keeps the codebase maintainable as it grows | Modular clean architecture with automated architecture checks |
 
-**Engineering highlights**
+**🛠️ Engineering highlights**
 
-- 313 automated backend and frontend tests
-- Community publishing, cloning, reviews, contribution requests, and peer verification
-- Real-time features powered by Socket.IO
-- Redis-backed caching, sessions, OTP flows, and background jobs
-- Refresh-token reuse detection and remote session revocation
-- CI with linting, builds, dependency review, and CodeQL scanning
+- ✅ 313 automated backend and frontend tests
+- ✅ Community publishing, cloning, reviews, contribution requests, and peer verification
+- ✅ Real-time features powered by Socket.IO
+- ✅ Redis-backed caching, sessions, OTP flows, and background jobs
+- ✅ Refresh-token reuse detection and remote session revocation
+- ✅ CI with linting, builds, dependency review, and CodeQL scanning
 
 `React` · `TypeScript` · `Node.js` · `Express` · `MongoDB` · `Redis` · `Socket.IO` · `BullMQ` · `Piston` · `Turborepo`
 
@@ -71,30 +77,28 @@ Imminiq is the project where I bring together this product vision with serious e
 
 </div>
 
-## Tools I work with
+---
+
+## 🛠️ Tech Stack
 
 <div align="center">
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-111111?style=flat-square&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Skills](https://skillicons.dev/icons?i=ts,js,react,nodejs,express,mongodb,redis,socketio,tailwind,docker,git,linux&perline=6&theme=dark)
 
 </div>
 
-## GitHub activity
+---
+
+## 📊 GitHub Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=arjunpj-11&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="Arjun's GitHub stats" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=arjunpj-11&theme=github-dark-blue&hide_border=true" alt="Arjun's GitHub streak" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=arjunpj-11&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&custom_title=Arjun's%20GitHub%20Stats" height="165" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=arjunpj-11&theme=github-dark-blue&hide_border=true" height="165" />
+
+<br />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=arjunpj-11&theme=github-dark&hide_border=true&area=true&custom_title=Contribution%20Graph" width="90%" />
 
 <br />
 
@@ -104,9 +108,19 @@ Imminiq is the project where I bring together this product vision with serious e
 
 ---
 
+## 🏆 GitHub Trophies
+
 <div align="center">
 
-### Let's build something meaningful.
+![Trophies](https://github-profile-trophy.vercel.app/?username=arjunpj-11&theme=darkhub&no-frame=true&row=1&column=7)
+
+</div>
+
+---
+
+<div align="center">
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Let's%20build%20something%20meaningful.&fontSize=24&fontColor=fff&animation=twinkling)
 
 <sub>Learning, shipping, and improving every day.</sub>
 

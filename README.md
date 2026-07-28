@@ -1,69 +1,56 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hey%2C%20I'm%20Arjun%20PJ%20%F0%9F%91%8B&fontSize=45&fontColor=fff&animation=twinkling&fontAlignY=35)
+# Arjun PJ
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Building+secure+products;Community-driven+learning+systems;React+%C2%B7+TypeScript+%C2%B7+Node.js+%C2%B7+MongoDB)
+**Full-stack developer building reliable products from first principles.**
 
-Kerala, India · Open to full-stack and backend opportunities
+Kerala, India
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-arjunpj.online-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://www.arjunpj.online/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-arjun--pj-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arjun-pj/)
-[![Email](https://img.shields.io/badge/Email-Let's_talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arjunpj11@gmail.com)
-
-![Profile Views](https://komarev.com/ghpvc/?username=arjunpj-11&color=38bdf8&style=for-the-badge&label=Profile+Views)
+[Portfolio](https://www.arjunpj.online/) · [LinkedIn](https://www.linkedin.com/in/arjun-pj/) · [Email](mailto:arjunpj11@gmail.com)
 
 </div>
 
 ---
 
-## 🚀 About Me
+## About
 
-I'm a full-stack developer who enjoys turning complex ideas into reliable, thoughtfully designed products. My interest in mathematics shaped how I approach programming: break the problem down, understand the system, and build with intention.
+I learned to love problem-solving through mathematics before I ever wrote code. Give me a difficult problem and I naturally want to understand it from every angle, break it into smaller parts, and test different solutions.
 
-Right now, I'm developing **Imminiq**, a community-evolving learning platform built around living trackers. AI creates the first structured path; learners then study together, contribute missing knowledge, verify improvements, and make the tracker better for everyone who follows.
+Programming became the place where that way of thinking could turn into real products. I work across the stack with React, TypeScript, Node.js, Express, MongoDB, Redis, background jobs, and real-time systems.
 
-- 🔒 I care about **backend architecture, application security, and developer experience**
-- ⚡ I build primarily with **React, TypeScript, Node.js, MongoDB, and Redis**
-- 🎓 I'm currently training at **Brototype** and building production-grade full-stack applications
-- 💼 I'm open to **internship and entry-level full-stack or backend roles**
+I am currently developing **Imminiq**, a community-evolving learning platform that combines structured roadmaps, contextual AI, code execution, progress tracking, and collaborative learning.
 
+## Selected work
 
+| Project | Why it exists | Engineering focus |
+|---|---|---|
+| **[Imminiq](https://github.com/arjunpj-11/Imminiq)** | Makes self-learning more structured, contextual, and collaborative. | Clean Architecture, TypeScript, MongoDB, Redis, BullMQ, Socket.IO, WebRTC, OAuth, 2FA, CSRF protection, and automated testing. |
+| **[AI Study Tracker](https://github.com/arjunpj-11/Mernstack-Tracker)** | Brings roadmaps, contextual explanations, mock tests, and progress tracking into one focused workspace. | React, Vite, AI-assisted learning flows, and client-side progress management. |
+| **[Arni](https://github.com/arjunpj-11/Arni)** | Explores how customer, payment, inventory, order, return, wallet, and admin workflows fit together. | Node.js, Express, MongoDB, EJS, Razorpay, sessions, and MVC-style architecture. |
+| **[StudyCircle](https://github.com/arjunpj-11/StudyCircle)** | Reduces manual coordination and gives more students meaningful speaking time. | React, Node.js, Express, MongoDB, attendance-based grouping, and fair coordinator rotation. |
 
----
+## Engineering toolkit
 
-## 🛠️ Tech Stack
+- **Frontend:** React, Vite, TypeScript, JavaScript, responsive interfaces
+- **Backend:** Node.js, Express, REST APIs, MongoDB, session and token-based authentication
+- **Systems:** Redis, BullMQ, Turborepo, background processing, modular architecture
+- **Real time:** Socket.IO, WebRTC, presence, messaging, audio, and video flows
+- **Quality:** Vitest, Supertest, unit tests, integration tests, security checks, and code reviews
+- **Tools:** Git, GitHub, Docker, Linux, and Postman
 
-<div align="center">
+## How I work
 
-![Skills](https://skillicons.dev/icons?i=ts,js,react,nodejs,express,mongodb,redis,socketio,tailwind,docker,git,linux&perline=6&theme=dark)
+- Understand the problem before suggesting a solution.
+- Break large systems into smaller, testable parts.
+- Ask questions when context is missing.
+- Accept correction without ego and use feedback to improve the work.
+- Learn from mistakes and avoid repeating them.
+- Prefer clear architecture and maintainable code over unnecessary complexity.
 
-</div>
+## Current focus
 
----
-
-## 📊 GitHub Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=arjunpj-11&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&custom_title=Arjun's%20GitHub%20Stats" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=arjunpj-11&theme=github-dark-blue&hide_border=true" height="165" />
-
-<br />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=arjunpj-11&theme=github-dark&hide_border=true&area=true&custom_title=Contribution%20Graph" width="90%" />
-
-<br />
-
-<img src="https://raw.githubusercontent.com/arjunpj-11/arjunpj-11/output/snake-dark.svg" alt="Contribution graph animation" />
-
-</div>
+I am deepening my experience with architecture, security, testing, background processing, and real-time collaboration while continuing to build Imminiq as a complete product.
 
 ---
 
-<div align="center">
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Let's%20build%20something%20meaningful.&fontSize=24&fontColor=fff&animation=twinkling)
-
-<sub>Learning, shipping, and improving every day.</sub>
-
-</div>
+> I make mistakes, but I try not to make the same mistake twice.

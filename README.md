@@ -25,9 +25,8 @@ I am currently developing **Imminiq**, a community-evolving learning platform th
 | Project | Why it exists | Engineering focus |
 |---|---|---|
 | **[Imminiq](https://github.com/arjunpj-11/Imminiq)** | Makes self-learning more structured, contextual, and collaborative. | Clean Architecture, TypeScript, MongoDB, Redis, BullMQ, Socket.IO, WebRTC, OAuth, 2FA, CSRF protection, and automated testing. |
-| **[AI Study Tracker](https://github.com/arjunpj-11/Mernstack-Tracker)** | Brings roadmaps, contextual explanations, mock tests, and progress tracking into one focused workspace. | React, Vite, AI-assisted learning flows, and client-side progress management. |
 | **[Arni](https://github.com/arjunpj-11/Arni)** | Explores how customer, payment, inventory, order, return, wallet, and admin workflows fit together. | Node.js, Express, MongoDB, EJS, Razorpay, sessions, and MVC-style architecture. |
-| **[StudyCircle](https://github.com/arjunpj-11/StudyCircle)** | Reduces manual coordination and gives more students meaningful speaking time. | React, Node.js, Express, MongoDB, attendance-based grouping, and fair coordinator rotation. |
+
 
 ## Engineering toolkit
 

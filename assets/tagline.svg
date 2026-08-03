@@ -1,32 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Tagline typing block">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 84" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Mathematics to logic to software">
   <defs>
     <style><![CDATA[
-      .bg    { fill:#000000; }
-      .fg    { fill:#F5F1EA; }
-      .copper{ fill:#B87333; }
-      .muted { fill:#8A8A8A; }
-      .mono  { font-family:'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:.22em; }
+      .bg{fill:#000}.fg{fill:#F5F1EA}.copper{fill:#B87333}.muted{fill:#8A8A8A}
+      .mono{font-family:'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.22em}
     ]]></style>
-    <clipPath id="reveal">
-      <rect x="0" y="0" width="0" height="80">
-        <animate attributeName="width" values="0;540" dur="2.6s" begin="0.4s" fill="freeze"/>
-      </rect>
-    </clipPath>
+    <clipPath id="reveal"><rect x="0" y="0" width="760" height="84"><animate attributeName="width" values="0;760" dur="2.7s" begin="0.2s" fill="freeze"/></rect></clipPath>
   </defs>
-
-  <rect class="bg" width="800" height="80"/>
-
-  <g clip-path="url(#reveal)">
-    <text class="mono fg" x="30" y="46" font-size="16">MATHEMATICS &#8594; LOGIC &#8594; SOFTWARE</text>
-  </g>
-
-  <rect class="copper" x="30" y="30" width="10" height="22">
-    <animate attributeName="x" values="30;540" dur="2.6s" begin="0.4s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
-  </rect>
-
-  <line x1="30" y1="60" x2="540" y2="60" stroke="#B87333" stroke-width="1.5" stroke-dasharray="510" stroke-dashoffset="510">
-    <animate attributeName="stroke-dashoffset" from="510" to="0" dur="1.6s" begin="3.1s" fill="freeze"/>
-  </line>
+  <rect class="bg" width="1200" height="84"/>
+  <text class="mono muted" x="65" y="49" font-size="10">001.1</text>
+  <g clip-path="url(#reveal)"><text class="mono fg" x="220" y="50" font-size="17">MATHEMATICS → LOGIC → SOFTWARE</text></g>
+  <rect class="copper" x="220" y="31" width="9" height="24"><animate attributeName="x" values="220;785" dur="2.7s" begin="0.2s" fill="freeze"/><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></rect>
+  <line x1="220" y1="65" x2="785" y2="65" stroke="#B87333" stroke-width="1.5" stroke-dasharray="565" stroke-dashoffset="565"><animate attributeName="stroke-dashoffset" from="565" to="0" dur="1.5s" begin="2.9s" fill="freeze"/></line>
+  <text class="mono copper" x="1135" y="49" font-size="10" text-anchor="end">BUILDING IMMINIQ</text>
 </svg>

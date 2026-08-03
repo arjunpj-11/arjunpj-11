@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Closing quote">
+  <defs>
+    <style><![CDATA[
+      .bg    { fill:#000000; }
+      .fg    { fill:#F5F1EA; }
+      .muted { fill:#8A8A8A; }
+      .mono  { font-family:'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:.22em; }
+      .serif { font-family:'EB Garamond','Cormorant Garamond',Georgia,serif; }
+    ]]></style>
+  </defs>
+  <rect class="bg" width="1200" height="160"/>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.2s" fill="freeze"/>
+    <text class="mono muted" x="600" y="34" font-size="10" text-anchor="middle">— FIN.</text>
+    <line x1="560" y1="42" x2="640" y2="42" stroke="#B87333" stroke-width="1"/>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="1.6s" begin="0.7s" fill="freeze"/>
+    <text class="serif fg" x="600" y="92" font-size="28" font-style="italic" text-anchor="middle">
+      &#8220;I make mistakes, but I try not to make the same mistake twice.&#8221;
+    </text>
+  </g>
+
+  <g>
+    <line x1="440" y1="112" x2="760" y2="112" stroke="#B87333" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="320" stroke-dashoffset="320">
+      <animate attributeName="stroke-dashoffset" from="320" to="0" dur="1.8s" begin="1.6s" fill="freeze"/>
+    </line>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="2.6s" fill="freeze"/>
+    <text class="mono muted" x="600" y="140" font-size="9" text-anchor="middle">ARJUN PJ · KERALA · GITHUB.COM/ARJUNPJ-11</text>
+  </g>
+</svg>

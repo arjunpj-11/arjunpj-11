@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Engineering toolkit — animated grid">
+  <defs>
+    <style><![CDATA[
+      .bg     { fill:#000000; }
+      .fg     { fill:#F5F1EA; }
+      .muted  { fill:#8A8A8A; }
+      .copper { fill:#B87333; }
+      .mono   { font-family:'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:.18em; }
+      .serif  { font-family:'EB Garamond','Cormorant Garamond',Georgia,serif; }
+    ]]></style>
+  </defs>
+
+  <rect class="bg" width="900" height="340"/>
+
+  <!-- Section label -->
+  <g>
+    <text class="mono muted" x="30" y="38" font-size="10">/ 003 · ENGINEERING TOOLKIT</text>
+    <line x1="30" y1="52" x2="120" y2="52" stroke="#B87333" stroke-width="1"/>
+  </g>
+
+  <!-- Row 1 -->
+  <!-- 01 React -->
+  <g opacity="0" transform="translate(30,90)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.1s" fill="freeze"/>
+    <g transform="translate(0,20)">
+      <circle cx="24" cy="20" r="4" class="copper"/>
+      <ellipse cx="24" cy="20" rx="22" ry="8" fill="none" stroke="#F5F1EA" stroke-width="1"/>
+      <ellipse cx="24" cy="20" rx="22" ry="8" fill="none" stroke="#F5F1EA" stroke-width="1" transform="rotate(60 24 20)"/>
+      <ellipse cx="24" cy="20" rx="22" ry="8" fill="none" stroke="#F5F1EA" stroke-width="1" transform="rotate(120 24 20)"/>
+    </g>
+    <text class="mono fg" x="64" y="30" font-size="12">REACT</text>
+    <text class="mono muted" x="64" y="48" font-size="9">UI · HOOKS · SSR</text>
+  </g>
+
+  <!-- 02 TypeScript -->
+  <g opacity="0" transform="translate(320,90)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.25s" fill="freeze"/>
+    <g transform="translate(0,4)">
+      <rect x="0" y="0" width="46" height="46" rx="6" fill="none" stroke="#F5F1EA" stroke-width="1.2"/>
+      <text class="serif fg" x="10" y="34" font-size="22" font-weight="700">TS</text>
+    </g>
+    <text class="mono fg" x="64" y="30" font-size="12">TYPESCRIPT</text>
+    <text class="mono muted" x="64" y="48" font-size="9">TYPES · GENERICS</text>
+  </g>
+
+  <!-- 03 Node -->
+  <g opacity="0" transform="translate(610,90)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.4s" fill="freeze"/>
+    <g transform="translate(0,4)">
+      <polygon points="23,0 46,12 46,34 23,46 0,34 0,12" fill="none" stroke="#F5F1EA" stroke-width="1.2"/>
+      <text class="mono copper" x="12" y="30" font-size="10">NODE</text>
+    </g>
+    <text class="mono fg" x="64" y="30" font-size="12">NODE.JS</text>
+    <text class="mono muted" x="64" y="48" font-size="9">RUNTIME · EVENT-LOOP</text>
+  </g>
+
+  <!-- Row 2 -->
+  <!-- 04 MongoDB (leaf) -->
+  <g opacity="0" transform="translate(30,180)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.55s" fill="freeze"/>
+    <g transform="translate(0,2)">
+      <path d="M23 2 C 38 18, 40 34, 23 46 C 6 34, 8 18, 23 2 Z" fill="none" stroke="#F5F1EA" stroke-width="1.2"/>
+      <line x1="23" y1="4" x2="23" y2="46" stroke="#B87333" stroke-width="1"/>
+    </g>
+    <text class="mono fg" x="64" y="30" font-size="12">MONGODB</text>
+    <text class="mono muted" x="64" y="48" font-size="9">DOCS · AGGREGATION</text>
+  </g>
+
+  <!-- 05 Redis (stacked cubes) -->
+  <g opacity="0" transform="translate(320,180)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.7s" fill="freeze"/>
+    <g transform="translate(0,4)" fill="none" stroke="#F5F1EA" stroke-width="1.2">
+      <path d="M2 10 L23 2 L44 10 L23 18 Z"/>
+      <path d="M2 24 L23 16 L44 24 L23 32 Z"/>
+      <path d="M2 38 L23 30 L44 38 L23 46 Z"/>
+    </g>
+    <text class="mono fg" x="64" y="30" font-size="12">REDIS</text>
+    <text class="mono muted" x="64" y="48" font-size="9">CACHE · PUBSUB</text>
+  </g>
+
+  <!-- 06 BullMQ (horns) -->
+  <g opacity="0" transform="translate(610,180)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.85s" fill="freeze"/>
+    <g transform="translate(0,6)" fill="none" stroke="#F5F1EA" stroke-width="1.2">
+      <path d="M2 24 C 2 8, 18 6, 23 20"/>
+      <path d="M44 24 C 44 8, 28 6, 23 20"/>
+      <circle cx="23" cy="30" r="8" stroke="#B87333"/>
+    </g>
+    <text class="mono fg" x="64" y="30" font-size="12">BULLMQ</text>
+    <text class="mono muted" x="64" y="48" font-size="9">QUEUES · WORKERS</text>
+  </g>
+
+  <!-- Row 3 -->
+  <!-- 07 Socket.IO -->
+  <g opacity="0" transform="translate(30,270)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="1.0s" fill="freeze"/>
+    <g transform="translate(0,4)">
+      <circle cx="6"  cy="8"  r="3" class="copper"/>
+      <circle cx="40" cy="8"  r="3" fill="#F5F1EA"/>
+      <circle cx="6"  cy="40" r="3" fill="#F5F1EA"/>
+      <circle cx="40" cy="40" r="3" class="copper"/>
+      <line x1="6" y1="8"  x2="40" y2="40" stroke="#F5F1EA" stroke-width="1"/>
+      <line x1="40" y1="8" x2="6"  y2="40" stroke="#F5F1EA" stroke-width="1"/>
+      <line x1="6" y1="8"  x2="40" y2="8"  stroke="#8A8A8A" stroke-width="1"/>
+      <line x1="6" y1="40" x2="40" y2="40" stroke="#8A8A8A" stroke-width="1"/>
+    </g>
+    <text class="mono fg" x="64" y="26" font-size="12">SOCKET.IO</text>
+    <text class="mono muted" x="64" y="44" font-size="9">REALTIME · ROOMS</text>
+  </g>
+
+  <!-- 08 WebRTC -->
+  <g opacity="0" transform="translate(320,270)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="1.15s" fill="freeze"/>
+    <g transform="translate(0,4)" fill="none" stroke="#F5F1EA" stroke-width="1.2">
+      <circle cx="10" cy="24" r="4"/>
+      <circle cx="36" cy="12" r="4"/>
+      <circle cx="36" cy="36" r="4"/>
+      <path d="M14 24 Q 24 4 32 12" stroke="#B87333"/>
+      <path d="M14 24 Q 24 44 32 36" stroke="#B87333"/>
+      <path d="M36 16 L 36 32" stroke="#8A8A8A"/>
+    </g>
+    <text class="mono fg" x="64" y="26" font-size="12">WEBRTC</text>
+    <text class="mono muted" x="64" y="44" font-size="9">P2P · MEDIA</text>
+  </g>
+
+  <!-- 09 Docker -->
+  <g opacity="0" transform="translate(610,270)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="1.3s" fill="freeze"/>
+    <g transform="translate(0,10)" fill="none" stroke="#F5F1EA" stroke-width="1.2">
+      <rect x="0"  y="10" width="10" height="10"/>
+      <rect x="12" y="10" width="10" height="10"/>
+      <rect x="24" y="10" width="10" height="10"/>
+      <rect x="12" y="-2" width="10" height="10"/>
+      <path d="M0 24 Q 22 34 44 24" stroke="#B87333"/>
+    </g>
+    <text class="mono fg" x="64" y="26" font-size="12">DOCKER</text>
+    <text class="mono muted" x="64" y="44" font-size="9">CONTAINERS · CI</text>
+  </g>
+
+  <line x1="30" y1="320" x2="870" y2="320" stroke="#141414" stroke-width="1"/>
+</svg>

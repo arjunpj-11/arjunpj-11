@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Tagline typing block">
+  <defs>
+    <style><![CDATA[
+      .bg    { fill:#000000; }
+      .fg    { fill:#F5F1EA; }
+      .copper{ fill:#B87333; }
+      .muted { fill:#8A8A8A; }
+      .mono  { font-family:'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,monospace; letter-spacing:.22em; }
+    ]]></style>
+    <clipPath id="reveal">
+      <rect x="0" y="0" width="0" height="80">
+        <animate attributeName="width" values="0;540" dur="2.6s" begin="0.4s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect class="bg" width="800" height="80"/>
+
+  <g clip-path="url(#reveal)">
+    <text class="mono fg" x="30" y="46" font-size="16">MATHEMATICS &#8594; LOGIC &#8594; SOFTWARE</text>
+  </g>
+
+  <rect class="copper" x="30" y="30" width="10" height="22">
+    <animate attributeName="x" values="30;540" dur="2.6s" begin="0.4s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+  </rect>
+
+  <line x1="30" y1="60" x2="540" y2="60" stroke="#B87333" stroke-width="1.5" stroke-dasharray="510" stroke-dashoffset="510">
+    <animate attributeName="stroke-dashoffset" from="510" to="0" dur="1.6s" begin="3.1s" fill="freeze"/>
+  </line>
+</svg>

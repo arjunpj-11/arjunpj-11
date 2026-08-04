@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1720" role="img" aria-label="Arjun PJ profile card">
+  <defs>
+    <linearGradient id="bgGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0b0b"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="copperLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B87333"/>
+      <stop offset="100%" stop-color="#E4A569"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <style><![CDATA[
+      .page { fill:#030303; }
+      .card { fill:url(#bgGlow); stroke:#1d1d1d; stroke-width:2; }
+      .panel { fill:#0c0c0c; stroke:#202020; stroke-width:1.5; }
+      .panel2 { fill:#090909; stroke:#1a1a1a; stroke-width:1.5; }
+      .fg { fill:#F5F1EA; }
+      .muted { fill:#8A8A8A; }
+      .copper { fill:#B87333; }
+      .mono { font-family:'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,monospace; }
+      .serif { font-family:'EB Garamond','Cormorant Garamond','Playfair Display',Georgia,serif; }
+      .tiny { font-size:12px; letter-spacing:.26em; }
+      .small { font-size:16px; letter-spacing:.08em; }
+      .body { font-size:22px; }
+      .body2 { font-size:19px; }
+      .title { font-size:88px; font-style:italic; }
+      .hero { font-size:54px; font-style:italic; }
+      .sec { font-size:18px; letter-spacing:.24em; }
+      .pillText { font-size:13px; letter-spacing:.18em; }
+    ]]></style>
+  </defs>
+
+  <rect class="page" width="1200" height="1720"/>
+
+  <rect x="40" y="40" width="1120" height="1640" rx="34" class="card" filter="url(#softShadow)"/>
+
+  <circle cx="1050" cy="150" r="170" fill="#0f0f0f" opacity="0.65"/>
+  <circle cx="1050" cy="150" r="170" fill="none" stroke="#151515" stroke-width="1"/>
+  <circle cx="1050" cy="150" r="170" fill="none" stroke="#B87333" stroke-width="1.25" stroke-dasharray="14 18" stroke-linecap="round" opacity="0.75">
+    <animateTransform attributeName="transform" type="rotate" from="0 1050 150" to="360 1050 150" dur="36s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1035" cy="130" r="7" fill="#B87333">
+    <animate attributeName="opacity" values="1;.35;1" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1095" cy="195" r="5" fill="#F5F1EA" opacity="0.8">
+    <animate attributeName="opacity" values=".8;.2;.8" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" fill="freeze"/>
+    <text x="88" y="110" class="mono muted tiny">001 · PROFILE</text>
+    <text x="1085" y="110" text-anchor="end" class="mono muted tiny">ARJUN PJ · KERALA, INDIA</text>
+  </g>
+
+  <g transform="translate(88,180)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.2s" fill="freeze"/>
+    <text x="0" y="0" class="serif fg title">APJ</text>
+    <line x1="4" y1="20" x2="230" y2="20" stroke="url(#copperLine)" stroke-width="2" stroke-linecap="round" stroke-dasharray="226" stroke-dashoffset="226">
+      <animate attributeName="stroke-dashoffset" from="226" to="0" dur="1.4s" begin="0.7s" fill="freeze"/>
+    </line>
+    <text x="4" y="50" class="mono muted small">FULL–STACK ENGINEER</text>
+  </g>
+
+  <g transform="translate(430,190)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.45s" fill="freeze"/>
+    <text x="0" y="0" class="mono copper tiny">— PRINCIPLE</text>
+    <text x="0" y="70" class="serif fg hero">I understand the problem</text>
+    <text x="0" y="136" class="serif fg hero">before I build.</text>
+    <line x1="0" y1="154" x2="405" y2="154" stroke="url(#copperLine)" stroke-width="3" stroke-linecap="round" stroke-dasharray="405" stroke-dashoffset="405">
+      <animate attributeName="stroke-dashoffset" from="405" to="0" dur="1.7s" begin="1.2s" fill="freeze"/>
+    </line>
+    <text x="0" y="205" class="mono muted small">CLEAN SYSTEMS · PRODUCT THINKING · REALTIME WORKFLOWS</text>
+  </g>
+
+  <g transform="translate(88,390)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.9s" fill="freeze"/>
+    <text x="0" y="0" class="mono fg body2">I build end-to-end products where architecture, security, business rules, and</text>
+    <text x="0" y="34" class="mono fg body2">user experience have to work together — not as separate features, but as one system.</text>
+  </g>
+
+  <!-- Current focus panel -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="1.2s" fill="freeze"/>
+    <rect x="80" y="490" width="1040" height="220" rx="24" class="panel"/>
+    <text x="110" y="540" class="mono copper sec">CURRENT FOCUS</text>
+    <line x1="110" y1="556" x2="310" y2="556" stroke="url(#copperLine)" stroke-width="1.6"/>
+
+    <circle cx="118" cy="590" r="4" fill="#B87333"/>
+    <text x="140" y="597" class="mono fg body2">Building Imminiq — a structured, contextual, collaborative learning platform.</text>
+
+    <circle cx="118" cy="635" r="4" fill="#B87333"/>
+    <text x="140" y="642" class="mono fg body2">Designing with clean architecture, queues, secure auth, and real-time systems.</text>
+
+    <circle cx="118" cy="680" r="4" fill="#B87333"/>
+    <text x="140" y="687" class="mono fg body2">Keeping the portfolio intentionally small: depth over noise.</text>
+  </g>
+
+  <!-- Selected work -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="1.45s" fill="freeze"/>
+    <text x="88" y="780" class="mono copper sec">SELECTED WORK</text>
+    <line x1="88" y1="796" x2="292" y2="796" stroke="url(#copperLine)" stroke-width="1.6"/>
+
+    <rect x="80" y="828" width="500" height="420" rx="24" class="panel2"/>
+    <rect x="96" y="850" width="86" height="30" rx="15" fill="#17110b" stroke="#3a2511"/>
+    <text x="139" y="870" text-anchor="middle" class="mono copper pillText">ACTIVE</text>
+    <text x="96" y="925" class="mono fg" style="font-size:32px; letter-spacing:.1em;">IMMINIQ</text>
+    <text x="96" y="963" class="mono muted body2">Community-evolving learning platform for structured,</text>
+    <text x="96" y="992" class="mono muted body2">contextual, and collaborative self-learning.</text>
+    <text x="96" y="1052" class="mono fg body2">• Structured roadmaps, lessons, and contextual AI support</text>
+    <text x="96" y="1087" class="mono fg body2">• Progress tracking, activity insights, and public sharing</text>
+    <text x="96" y="1122" class="mono fg body2">• Messaging, audio/video calls, and in-browser code execution</text>
+    <text x="96" y="1177" class="mono copper body2">React · Vite · TypeScript · Express · MongoDB · Redis</text>
+    <text x="96" y="1208" class="mono copper body2">Socket.IO · WebRTC · BullMQ · Piston · Turborepo · LLM APIs</text>
+
+    <rect x="620" y="828" width="500" height="420" rx="24" class="panel2"/>
+    <rect x="636" y="850" width="116" height="30" rx="15" fill="#111111" stroke="#2b2b2b"/>
+    <text x="694" y="870" text-anchor="middle" class="mono fg pillText">COMPLETE</text>
+    <text x="636" y="925" class="mono fg" style="font-size:32px; letter-spacing:.1em;">ARNI</text>
+    <text x="636" y="963" class="mono muted body2">First complete full-stack product. The project that taught me</text>
+    <text x="636" y="992" class="mono muted body2">how a transaction system fits together end to end.</text>
+    <text x="636" y="1052" class="mono fg body2">• Product discovery, search, cart, addresses, and coupons</text>
+    <text x="636" y="1087" class="mono fg body2">• Razorpay payments, order tracking, cancellations, returns</text>
+    <text x="636" y="1122" class="mono fg body2">• Admin workspace for products, inventory, orders, and sales</text>
+    <text x="636" y="1177" class="mono copper body2">Node.js · Express.js · MongoDB · EJS · Razorpay</text>
+    <text x="636" y="1208" class="mono copper body2">Session Authentication · MVC-style Architecture</text>
+  </g>
+
+  <!-- Contributions panel -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="1.7s" fill="freeze"/>
+    <rect x="80" y="1290" width="1040" height="270" rx="24" class="panel"/>
+    <text x="110" y="1340" class="mono copper sec">CONTRIBUTIONS</text>
+    <line x1="110" y1="1356" x2="316" y2="1356" stroke="url(#copperLine)" stroke-width="1.6"/>
+    <text x="110" y="1390" class="mono muted body2">Consistent, quiet work. Small commits, steady progress, honest iteration.</text>
+
+    <!-- Contribution grid -->
+    <g transform="translate(110,1425)">
+      <!-- 7 rows x 38 cols -->
+      <g fill="#141414" stroke="#202020" stroke-width="0.8">
+        <rect x="0" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="26" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="52" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="78" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="104" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="130" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="156" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="182" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="208" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="234" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="260" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="286" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="312" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="338" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="364" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="390" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="416" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="442" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="468" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="494" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="520" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="546" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="572" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="598" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="624" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="650" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="676" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="702" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="728" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="754" y="0" width="18" height="18" rx="4" fill="#2a231d" stroke="#242424">
+          <animate attributeName="fill" values="#2a231d;#B87333;#2a231d" dur="4.4s" begin="0.2s" repeatCount="indefinite"/></rect>
+        <rect x="780" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="806" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="832" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="858" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="884" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="910" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="936" y="0" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="962" y="0" width="18" height="18" rx="4" fill="#2a231d" stroke="#242424">
+          <animate attributeName="fill" values="#2a231d;#B87333;#2a231d" dur="3.5999999999999996s" begin="0.4s" repeatCount="indefinite"/></rect>
+        <rect x="0" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="26" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="52" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="78" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="104" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="130" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="156" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="182" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="208" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="234" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="260" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="286" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="312" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="338" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="364" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="390" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="416" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="442" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="468" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="494" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="520" y="26" width="18" height="18" rx="4" fill="#2a231d" stroke="#242424">
+          <animate attributeName="fill" values="#2a231d;#B87333;#2a231d" dur="3.1999999999999997s" begin="0.0s" repeatCount="indefinite"/></rect>
+        <rect x="546" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="572" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="598" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="624" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="650" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="676" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="702" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="728" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="754" y="26" width="18" height="18" rx="4" fill="#3a2612" stroke="#242424">
+          <animate attributeName="fill" values="#3a2612;#B87333;#3a2612" dur="2.8s" begin="0.4s" repeatCount="indefinite"/></rect>
+        <rect x="780" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="806" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="832" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="858" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="884" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="910" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="936" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="962" y="26" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="0" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="26" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="52" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="78" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="104" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="130" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="156" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="182" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="208" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="234" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="260" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="286" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="312" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="338" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="364" y="52" width="18" height="18" rx="4" fill="#3a2612" stroke="#242424">
+          <animate attributeName="fill" values="#3a2612;#B87333;#3a2612" dur="3.1999999999999997s" begin="0.4s" repeatCount="indefinite"/></rect>
+        <rect x="390" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="416" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="442" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="468" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="494" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="520" y="52" width="18" height="18" rx="4" fill="#3a2612" stroke="#242424">
+          <animate attributeName="fill" values="#3a2612;#B87333;#3a2612" dur="3.5999999999999996s" begin="0.2s" repeatCount="indefinite"/></rect>
+        <rect x="546" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="572" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="598" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="624" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="650" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="676" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="702" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="728" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="754" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="780" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="806" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="832" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="858" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="884" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="910" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="936" y="52" width="18" height="18" rx="4" fill="#3a2612" stroke="#242424">
+          <animate attributeName="fill" values="#3a2612;#B87333;#3a2612" dur="4.0s" begin="0.6000000000000001s" repeatCount="indefinite"/></rect>
+        <rect x="962" y="52" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="0" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="26" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="52" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="78" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="104" y="78" width="18" height="18" rx="4" fill="#2a231d" stroke="#242424">
+          <animate attributeName="fill" values="#2a231d;#B87333;#2a231d" dur="3.5999999999999996s" begin="0.0s" repeatCount="indefinite"/></rect>
+        <rect x="130" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="156" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="182" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="208" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="234" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="260" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="286" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="312" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="338" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="364" y="78" width="18" height="18" rx="4" fill="#2a231d" stroke="#242424">
+          <animate attributeName="fill" values="#2a231d;#B87333;#2a231d" dur="3.5999999999999996s" begin="0.6000000000000001s" repeatCount="indefinite"/></rect>
+        <rect x="390" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="416" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="442" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="468" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="494" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="520" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="546" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="572" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="598" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="624" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="650" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="676" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="702" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="728" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="754" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="780" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="806" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="832" y="78" width="18" height="18" rx="4" fill="#2a231d" stroke="#242424">
+          <animate attributeName="fill" values="#2a231d;#B87333;#2a231d" dur="2.8s" begin="0.0s" repeatCount="indefinite"/></rect>
+        <rect x="858" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="884" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="910" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="936" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="962" y="78" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="0" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="26" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="52" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="78" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="104" y="104" width="18" height="18" rx="4" fill="#3a2612" stroke="#242424">
+          <animate attributeName="fill" values="#3a2612;#B87333;#3a2612" dur="4.0s" begin="0.2s" repeatCount="indefinite"/></rect>
+        <rect x="130" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="156" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="182" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="208" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="234" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="260" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="286" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="312" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="338" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="364" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="390" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="416" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="442" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="468" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="494" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="520" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="546" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="572" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="598" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="624" y="104" width="18" height="18" rx="4" fill="#3a2612" stroke="#242424">
+          <animate attributeName="fill" values="#3a2612;#B87333;#3a2612" dur="4.0s" begin="0.0s" repeatCount="indefinite"/></rect>
+        <rect x="650" y="104" width="18" height="18" rx="4" fill="#2a231d" stroke="#242424">
+          <animate attributeName="fill" values="#2a231d;#B87333;#2a231d" dur="4.4s" begin="0.2s" repeatCount="indefinite"/></rect>
+        <rect x="676" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="702" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="728" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="754" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="780" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="806" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="832" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="858" y="104" width="18" height="18" rx="4" fill="#2a231d" stroke="#242424">
+          <animate attributeName="fill" values="#2a231d;#B87333;#2a231d" dur="3.5999999999999996s" begin="0.4s" repeatCount="indefinite"/></rect>
+        <rect x="884" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="910" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="936" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="962" y="104" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="0" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="26" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="52" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="78" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="104" y="130" width="18" height="18" rx="4" fill="#2a231d" stroke="#242424">
+          <animate attributeName="fill" values="#2a231d;#B87333;#2a231d" dur="4.4s" begin="0.4s" repeatCount="indefinite"/></rect>
+        <rect x="130" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="156" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="182" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="208" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="234" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="260" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="286" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="312" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="338" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="364" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="390" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="416" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="442" y="130" width="18" height="18" rx="4" fill="#3a2612" stroke="#242424">
+          <animate attributeName="fill" values="#3a2612;#B87333;#3a2612" dur="3.5999999999999996s" begin="0.2s" repeatCount="indefinite"/></rect>
+        <rect x="468" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="494" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="520" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="546" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="572" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="598" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="624" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="650" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="676" y="130" width="18" height="18" rx="4" fill="#2a231d" stroke="#242424">
+          <animate attributeName="fill" values="#2a231d;#B87333;#2a231d" dur="3.1999999999999997s" begin="0.6000000000000001s" repeatCount="indefinite"/></rect>
+        <rect x="702" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="728" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="754" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="780" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="806" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="832" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="858" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="884" y="130" width="18" height="18" rx="4" fill="#2a231d" stroke="#242424">
+          <animate attributeName="fill" values="#2a231d;#B87333;#2a231d" dur="4.4s" begin="0.8s" repeatCount="indefinite"/></rect>
+        <rect x="910" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="936" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="962" y="130" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="0" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="26" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="52" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="78" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="104" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="130" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="156" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="182" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="208" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="234" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="260" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="286" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="312" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="338" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="364" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="390" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="416" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="442" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="468" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="494" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="520" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="546" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="572" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="598" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="624" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="650" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="676" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="702" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="728" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="754" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="780" y="156" width="18" height="18" rx="4" fill="#3a2612" stroke="#242424">
+          <animate attributeName="fill" values="#3a2612;#B87333;#3a2612" dur="3.1999999999999997s" begin="0.2s" repeatCount="indefinite"/></rect>
+        <rect x="806" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="832" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="858" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="884" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="910" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="936" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+        <rect x="962" y="156" width="18" height="18" rx="4" fill="#141414" stroke="#242424"></rect>
+      </g>
+      <path d="M 867 63 C 845 63, 845 89, 823 89 C 801 89, 801 63, 779 63" fill="none" stroke="#B87333" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+        <animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.2s" repeatCount="indefinite"/>
+      </path>
+      <circle cx="867" cy="63" r="8" fill="#F5F1EA">
+        <animate attributeName="r" values="8;9;8" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="862" cy="60" r="1.8" fill="#000000"/>
+      <circle cx="872" cy="60" r="1.8" fill="#000000"/>
+    </g>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="2.0s" fill="freeze"/>
+    <line x1="88" y1="1600" x2="1112" y2="1600" stroke="#151515" stroke-width="1.5"/>
+    <text x="88" y="1640" class="mono muted small">GITHUB.COM/ARJUNPJ-11</text>
+    <text x="1112" y="1640" text-anchor="end" class="mono muted small">LINKEDIN · X</text>
+  </g>
+</svg>

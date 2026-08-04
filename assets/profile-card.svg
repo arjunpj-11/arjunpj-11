@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1220" role="img" aria-label="Arjun PJ profile card">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1192" role="img" aria-label="Arjun PJ profile card">
   <defs>
     <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0A0A0A"/>
@@ -56,8 +56,8 @@
     ]]></style>
   </defs>
 
-  <rect width="1200" height="1220" fill="#050505"/>
-  <rect x="32" y="26" width="1136" height="1168" rx="34" class="bg" stroke="#202020" stroke-width="2" filter="url(#shadow)"/>
+  <path d="M 32 60 A 34 34 0 0 1 66 26 L 1132 26 A 34 34 0 0 1 1166 60 L 1166 1192 L 32 1192 Z"
+        class="bg" stroke="#202020" stroke-width="2" filter="url(#shadow)"/>
 
   <!-- floating particles -->
   <g opacity="0.55">
@@ -212,13 +212,4 @@
     <text x="644" y="1138" class="mono accent" font-size="12.5">Session Authentication · MVC-style Architecture</text>
   </g>
 
-  <!-- contribution bridge -->
-  <g>
-    <text x="78" y="1178" class="mono accent label">CONTRIBUTIONS</text>
-    <line x1="78" y1="1193" x2="276" y2="1193" stroke="url(#copper)" stroke-width="1.7"/>
-    <circle cx="1030" cy="1174" r="4" fill="#4ADE80">
-      <animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/>
-    </circle>
-    <text x="1115" y="1178" text-anchor="end" class="mono muted" font-size="13" letter-spacing=".10em">LIVE — SEE BELOW</text>
-  </g>
 </svg>

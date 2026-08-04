@@ -1,6 +1,6 @@
 <h1>Hey <img src="https://emojis.slackmojis.com/emojis/images/1577305505/7373/hand_wave.gif?1577305505" width="40" /> What's up?</h1>
 
-<p>My name is <b>Arjun PJ</b> and I'm a <b>Full-Stack Engineer</b> from <img src="https://cdn-icons-png.flaticon.com/128/197/197471.png" width="17" /> <b>India (Kerala)</b>.</p>
+<p>My name is <b>Arjun PJ</b> and I'm a <b>full-stack engineer</b> from 🇮🇳 <b>India (Kerala)</b>.</p>
 
 ---
 
@@ -60,20 +60,20 @@
     <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
   </a>
   &nbsp;
-  <a href="https://imminiq.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Live_Demo-F15A35?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+  <a href="https://imminiq.arjunpj.online" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Demo-F15A35?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo"/>
   </a>
 </p>
 
 ---
 
-### <img src="./assets/arni-logo.png" width="32" height="32" align="absmiddle" alt="ArNI Logo"/> **ArNI** — *Full-Stack E-Commerce System*
+### <img src="./assets/arni-logo.png" width="32" height="32" align="absmiddle" alt="ARNI Logo"/> **ARNI** — *Full-Stack E-Commerce System*
 
 <blockquote style="border-left: 4px solid #2563EB;">
   <p><b><font color="#2563EB">"Complete transaction-based product covering customer journeys, payments, fulfillment, and administration."</font></b></p>
 </blockquote>
 
-- **Overview & Assessment**: ArNI is a complete, full-stack e-commerce system built to handle end-to-end commerce logic. It integrates storefront shopping flows with an operational backend for stock, orders, returns, and sales analytics.
+- **Overview & Assessment**: ARNI is a complete, full-stack e-commerce system built to handle end-to-end commerce logic. It integrates storefront shopping flows with an operational backend for stock, orders, returns, and sales analytics.
 - **Key Features**:
   - 🛒 **Customer Workflow**: Session auth, catalog filtering, variant selection, shopping cart, multi-address checkout, wallet system, order tracking, and product return requests
   - 💳 **Payment & Security**: Integrated Razorpay payment gateway, wallet transactions, and Cash-on-Delivery logic
@@ -87,8 +87,8 @@
     <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
   </a>
   &nbsp;
-  <a href="https://arni-ecommerce.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Live_Demo-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+  <a href="https://arni.arjunpj.online" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Demo-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo"/>
   </a>
 </p>
 
@@ -97,19 +97,19 @@
 ## 🌐 Connect & Portfolio
 
 <p align="center">
-  <a href="https://github.com/arjunpj-11">
-    <img src="https://img.shields.io/badge/GITHUB-050505?style=for-the-badge&logo=github&logoColor=F5F1EA&labelColor=050505&color=B87333" alt="GitHub"/>
+  <a href="https://github.com/arjunpj-11" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-FFFFFF?style=for-the-badge&logo=github&logoColor=000000" alt="GitHub"/>
   </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/arjun-pj">
-    <img src="https://img.shields.io/badge/LINKEDIN-050505?style=for-the-badge&logo=linkedin&logoColor=F5F1EA&labelColor=050505&color=B87333" alt="LinkedIn"/>
+  &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/arjun-pj" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  &nbsp;
-  <a href="https://arjunpj.vercel.app">
-    <img src="https://img.shields.io/badge/PORTFOLIO-050505?style=for-the-badge&logo=firefox&logoColor=F5F1EA&labelColor=050505&color=B87333" alt="Portfolio"/>
+  &nbsp;&nbsp;
+  <a href="https://www.arjunpj.online" target="_blank">
+    <img src="https://img.shields.io/badge/APJ_Portfolio-0F172A?style=for-the-badge&logo=googlechrome&logoColor=38BDF8" alt="APJ Portfolio"/>
   </a>
-  &nbsp;
-  <a href="mailto:arjunpj11@gmail.com">
-    <img src="https://img.shields.io/badge/EMAIL-050505?style=for-the-badge&logo=gmail&logoColor=F5F1EA&labelColor=050505&color=B87333" alt="Email"/>
+  &nbsp;&nbsp;
+  <a href="mailto:arjunpj11@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
 </p>

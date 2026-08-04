@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1260" role="img" aria-label="Arjun PJ profile card">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1220" role="img" aria-label="Arjun PJ profile card">
   <defs>
     <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#090909"/>
+      <stop offset="0%" stop-color="#0A0A0A"/>
       <stop offset="100%" stop-color="#020202"/>
     </linearGradient>
     <linearGradient id="copper" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#B87333"/>
-      <stop offset="100%" stop-color="#E0A064"/>
+      <stop offset="100%" stop-color="#E8A868"/>
     </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E8A868" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#E8A868" stop-opacity="0"/>
+    </radialGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.45"/>
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.5"/>
     </filter>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="typeClip1">
+      <rect x="0" y="-56" width="0" height="70">
+        <animate attributeName="width" from="0" to="560" dur="1.6s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1"/>
+      </rect>
+    </clipPath>
+    <clipPath id="typeClip2">
+      <rect x="0" y="-56" width="0" height="70">
+        <animate attributeName="width" from="0" to="330" dur="1.1s" begin="2.15s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1"/>
+      </rect>
+    </clipPath>
     <style><![CDATA[
       .bg { fill:url(#cardBg); }
       .panel { fill:#0C0C0C; stroke:#252525; stroke-width:1.5; }
@@ -26,18 +47,51 @@
       .body { font-size:18px; }
       .small { font-size:15px; }
       .project { font-size:31px; letter-spacing:.10em; }
+      .particle { fill:#B87333; }
+      @keyframes drift {
+        0%   { transform: translate(0px, 0px); }
+        50%  { transform: translate(0px, -14px); }
+        100% { transform: translate(0px, 0px); }
+      }
     ]]></style>
   </defs>
 
-  <rect width="1200" height="1260" fill="#050505"/>
-  <rect x="32" y="26" width="1136" height="1208" rx="34" class="bg" stroke="#202020" stroke-width="2" filter="url(#shadow)"/>
+  <rect width="1200" height="1220" fill="#050505"/>
+  <rect x="32" y="26" width="1136" height="1168" rx="34" class="bg" stroke="#202020" stroke-width="2" filter="url(#shadow)"/>
 
-  <!-- subtle animated orbit -->
+  <!-- floating particles -->
+  <g opacity="0.55">
+    <circle class="particle" cx="150" cy="210" r="2.4">
+      <animate attributeName="cy" values="210;192;210" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="particle" cx="960" cy="330" r="2" opacity="0.5">
+      <animate attributeName="cy" values="330;310;330" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.6;0.15" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="particle" cx="1080" cy="640" r="2.6" opacity="0.4">
+      <animate attributeName="cy" values="640;618;640" dur="6.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.6;0.15" dur="6.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="particle" cx="90" cy="700" r="2.1" opacity="0.4">
+      <animate attributeName="cy" values="700;680;700" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.55;0.1" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="particle" cx="620" cy="120" r="1.8" opacity="0.35">
+      <animate attributeName="cy" values="120;104;120" dur="6.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.5;0.1" dur="6.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- animated orbit with glow -->
+  <circle cx="1030" cy="145" r="150" fill="url(#glow)">
+    <animate attributeName="r" values="150;168;150" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
   <circle cx="1030" cy="145" r="128" fill="#0D0D0D"/>
   <circle cx="1030" cy="145" r="128" fill="none" stroke="#B87333" stroke-width="1.2" stroke-dasharray="12 17" opacity="0.7">
     <animateTransform attributeName="transform" type="rotate" from="0 1030 145" to="360 1030 145" dur="34s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="1030" cy="17" r="6" fill="#B87333">
+  <circle cx="1030" cy="17" r="6" fill="#B87333" filter="url(#softGlow)">
     <animate attributeName="opacity" values="1;.25;1" dur="3s" repeatCount="indefinite"/>
   </circle>
 
@@ -49,21 +103,48 @@
 
   <!-- hero -->
   <g transform="translate(78,144)">
-    <text x="0" y="78" class="serif fg" font-size="104" font-style="italic">APJ</text>
+    <text x="0" y="78" class="serif fg" font-size="104" font-style="italic" filter="url(#softGlow)">
+      APJ
+      <animate attributeName="opacity" values="0;1" dur="0.9s" begin="0.05s" fill="freeze"/>
+    </text>
     <line x1="2" y1="98" x2="230" y2="98" stroke="url(#copper)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="228" stroke-dashoffset="228">
       <animate attributeName="stroke-dashoffset" from="228" to="0" dur="1.4s" begin="0.65s" fill="freeze"/>
     </line>
-    <text x="3" y="132" class="mono muted" font-size="14" letter-spacing=".18em">FULL–STACK ENGINEER</text>
+    <text x="3" y="132" class="mono muted" font-size="14" letter-spacing=".18em" opacity="0">
+      FULL–STACK ENGINEER
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1.5s" fill="freeze"/>
+    </text>
   </g>
 
+  <!-- typing tagline -->
   <g transform="translate(380,142)">
-    <text x="0" y="0" class="mono accent meta">— PRINCIPLE</text>
-    <text x="0" y="65" class="serif fg" font-size="49" font-style="italic">I understand the problem</text>
-    <text x="0" y="123" class="serif fg" font-size="49" font-style="italic">before I build.</text>
+    <text x="0" y="0" class="mono accent meta" opacity="0">
+      — PRINCIPLE
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.15s" fill="freeze"/>
+    </text>
+    <g clip-path="url(#typeClip1)">
+      <text x="0" y="65" class="serif fg" font-size="49" font-style="italic">I understand the problem</text>
+    </g>
+    <rect x="0" y="45" width="4" height="34" fill="#E8A868">
+      <animate attributeName="x" from="0" to="560" dur="1.6s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1"/>
+      <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="0.4s" repeatCount="5"/>
+      <set attributeName="opacity" to="0" begin="4.4s" fill="freeze"/>
+    </rect>
+    <g clip-path="url(#typeClip2)">
+      <text x="0" y="123" class="serif fg" font-size="49" font-style="italic">before I build.</text>
+    </g>
+    <rect x="0" y="103" width="4" height="34" fill="#E8A868">
+      <animate attributeName="x" from="0" to="330" dur="1.1s" begin="2.15s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.1 1"/>
+      <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="2.15s" repeatCount="4"/>
+      <set attributeName="opacity" to="0" begin="5.7s" fill="freeze"/>
+    </rect>
     <line x1="0" y1="141" x2="388" y2="141" stroke="url(#copper)" stroke-width="3" stroke-linecap="round" stroke-dasharray="388" stroke-dashoffset="388">
-      <animate attributeName="stroke-dashoffset" from="388" to="0" dur="1.7s" begin="1.15s" fill="freeze"/>
+      <animate attributeName="stroke-dashoffset" from="388" to="0" dur="0.7s" begin="3.3s" fill="freeze"/>
     </line>
-    <text x="0" y="184" class="mono muted" font-size="13" letter-spacing=".12em">ARCHITECTURE · SECURITY · REALTIME · PRODUCT SYSTEMS</text>
+    <text x="0" y="184" class="mono muted" font-size="13" letter-spacing=".12em" opacity="0">
+      ARCHITECTURE · SECURITY · REALTIME · PRODUCT SYSTEMS
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="3.6s" fill="freeze"/>
+    </text>
   </g>
 
   <g>
@@ -77,13 +158,19 @@
     <text x="100" y="515" class="mono accent label">CURRENT FOCUS</text>
     <line x1="100" y1="530" x2="302" y2="530" stroke="url(#copper)" stroke-width="1.7"/>
 
-    <circle cx="108" cy="565" r="4.5" fill="#B87333"/>
+    <circle cx="108" cy="565" r="4.5" fill="#B87333">
+      <animate attributeName="opacity" values="1;.35;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
     <text x="132" y="572" class="mono fg body">Building Imminiq — structured, contextual, collaborative learning.</text>
 
-    <circle cx="108" cy="610" r="4.5" fill="#B87333"/>
+    <circle cx="108" cy="610" r="4.5" fill="#B87333">
+      <animate attributeName="opacity" values="1;.35;1" dur="2.4s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
     <text x="132" y="617" class="mono fg body">Engineering clean architecture, queues, secure authentication, and real-time workflows.</text>
 
-    <circle cx="108" cy="655" r="4.5" fill="#B87333"/>
+    <circle cx="108" cy="655" r="4.5" fill="#B87333">
+      <animate attributeName="opacity" values="1;.35;1" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
     <text x="132" y="662" class="mono fg body">Maintaining two focused portfolio projects: Imminiq and Arni.</text>
   </g>
 
@@ -127,8 +214,11 @@
 
   <!-- contribution bridge -->
   <g>
-    <text x="78" y="1205" class="mono accent label">CONTRIBUTIONS</text>
-    <line x1="78" y1="1220" x2="276" y2="1220" stroke="url(#copper)" stroke-width="1.7"/>
-    <text x="1115" y="1205" text-anchor="end" class="mono muted" font-size="13" letter-spacing=".10em">LIVE ANIMATION BELOW</text>
+    <text x="78" y="1178" class="mono accent label">CONTRIBUTIONS</text>
+    <line x1="78" y1="1193" x2="276" y2="1193" stroke="url(#copper)" stroke-width="1.7"/>
+    <circle cx="1030" cy="1174" r="4" fill="#4ADE80">
+      <animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1115" y="1178" text-anchor="end" class="mono muted" font-size="13" letter-spacing=".10em">LIVE — SEE BELOW</text>
   </g>
 </svg>
